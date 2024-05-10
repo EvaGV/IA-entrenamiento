@@ -28,7 +28,7 @@ body{
     border-radius: 30px;
     margin-top: 50%;
     color: #705de8;
-    box-shadow: 5px 5px 10px #ffffff;
+    box-shadow: 5px 5px 10px #0f0b47;
     
 }
 
@@ -58,6 +58,12 @@ h2:hover{
     width: 100%;
 }
 
+.divbutton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .button{
     display: inline-block;
     width: fit-content;
@@ -78,9 +84,37 @@ h2:hover{
     border: 2px solid;
     transform: scale(1.1) rotate(5deg);
 }
+.button--anterior{
+    display: inline-block;
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    color: rgb(98, 98, 223);
+    padding: 10px 20px; 
+    border-radius: 5px ; 
+    border: solid rgb(98, 98, 223) 1px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+.button--anterior:hover{
+    background-color: #fff; 
+    color: rgb(98, 98, 223); 
+    border-color: rgb(98, 98, 223);
+    border: 2px solid;
+    transform: scale(1.1) rotate(-5deg);
+}
+
 
 input {
     margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+select{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 label{
@@ -92,6 +126,48 @@ div{
     justify-content: center;
 }
 
+/*Index*/
+.contentdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+.contentdiv__logo{
+    width: 200px;
+    
+}
+.contentspan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
+.contentspan__span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 100ch;
+    animation: typing 8s steps(90) infinite alternate,
+    blink .8s infinite step-end ;
+    overflow: hidden;
+}
+@keyframes typing {
+    from {width: 0;}
+    to{width: 100%;}
+    
+}@keyframes blink{
+50%{
+    border-color: transparent;
+}
+}
 
 
 
