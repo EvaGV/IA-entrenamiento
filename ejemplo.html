@@ -7,62 +7,7 @@
     <title>Ejemplo</title>
     <link rel="stylesheet" href="CSS/entrenamiento.css">
     <style>
-        .bannerejercicio{
-    height: 150px;
-    display: flex;
-    border-radius: 30px;
-}
-.bodyej{
-    background-color: rgb(98, 98, 223);
-}
-.divsection{
-    background-color: white;
-    display: flex;
-    padding: 10px;  
-    border-radius: 30PX;
-    width: 600px;
-    justify-content: space-around;
-    margin: 10px;
-}
-.divsection__image{
-    background-image: url() no-repeat center center/cover;
-    display: flex;
-    padding: 10px;  
-    border-radius: 30PX;
-    width: 600px;
-    justify-content: space-around;
-    margin: 10px;
-}
-.divsection__div{
-    display: flex;
-    flex-direction: column;
-     align-items: center;
-    height: auto;
-    gap: 0px;
-    margin: 0;
-}
-.mensajefixed{
-    background-color: #0f0b47;
-    width: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    position: fixed;
-    bottom: 10px;
-    border-radius: 30PX;
-    color: white;
-    gap: 40px;
-    padding: 10px;
-}
-.divscroll {
-    height: 420px;
-    overflow-y: scroll;
-    }
 
-.contentdiv__logo__blanco{
-    width: 100px;
-}
 
     </style>
 </head>
@@ -71,11 +16,15 @@
     <main>
         <div class="bannerejercicio" style="background: url(Img/pexels-pixabay-39671.jpg) no-repeat center center/cover;">
             <div class="divsection__div">
-                <h1>63Kg</h1>
+                <h1>65Kg</h1>
+            </div>
+            <div class="divsection__div">
+                <p>Objetivo</p>
+                <h1>60Kg</h1>
             </div>
         </div>
         
-        <div class="divsection">
+        <div class="divsection primer">
             <div class="divsection__div">
                 <h2>IMC</h2>
                 <p>25.5</p>
@@ -151,7 +100,7 @@
                 <img class="contentdiv__logo__blanco" src="Img/Golden trainer_Mesa de trabajo 1 copia.png" alt="logo">
                 <div class="contentspan">
                     <span class="contentspan__span">Hazme cualquier consulta</span>
-                    <form action="">
+                    <form action="https://ecampus.rocks/test-forms.php" method="get">
                         <input class="consulta" type="text" placeholder="Escribe Aqui">
                         <button class="button">Enviar</button>
                     </form>

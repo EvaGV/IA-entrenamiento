@@ -169,12 +169,14 @@ div{
 }
 }
 
-<<<<<<< HEAD
+
 /*Ejemplo*/
 .bannerejercicio{
     height: 150px;
     display: flex;
     border-radius: 30px;
+    justify-content: space-between;
+    padding: 30px;
 }
 .bodyej{
     background-color: rgb(98, 98, 223);
@@ -187,6 +189,10 @@ div{
     width: 600px;
     justify-content: space-around;
     margin: 10px;
+}
+.primer{
+    background-color: #0f0b47;
+    color: white;
 }
 .divsection__image{
     background-image: url() no-repeat center center/cover;
@@ -223,7 +229,11 @@ div{
     height: 420px;
     overflow-y: scroll;
     }
-=======
+
+.contentdiv__logo__blanco{
+    width: 100px;
+}
+    
 /*botones formulario 4*/
 
 .divbuttonopcion{
@@ -276,13 +286,6 @@ div{
 }
 
 
-
-
-
-
-
-
->>>>>>> c525820ff596153741de6379a16a8246e5e478d1
 
 .contentdiv__logo__blanco{
     width: 100px;
