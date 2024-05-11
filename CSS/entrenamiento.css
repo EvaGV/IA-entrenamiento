@@ -169,6 +169,7 @@ div{
 }
 }
 
+<<<<<<< HEAD
 /*Ejemplo*/
 .bannerejercicio{
     height: 150px;
@@ -222,6 +223,66 @@ div{
     height: 420px;
     overflow-y: scroll;
     }
+=======
+/*botones formulario 4*/
+
+.divbuttonopcion{
+    display: inline-block;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff; 
+    color: rgb(98, 98, 223); 
+    border-color: rgb(98, 98, 223);
+    border: 2px solid;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+.divbuttonopcion:hover{
+    background-color: rgb(98, 98, 223); 
+    color: rgb(255, 255, 255); 
+    border-color: rgb(98, 98, 223);
+    border: 2px solid;
+    transform: scale(1.1) ;
+}
+
+
+
+
+/*form5*/
+.button__form5{
+    display: inline-block;
+    width: fit-content;
+    background-color: rgb(98, 98, 223);
+    color: white;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.button__form5:hover{
+    background-color: #fff; 
+    color: rgb(98, 98, 223); 
+    border-color: rgb(98, 98, 223);
+    border: 2px solid;
+    transform: scale(1.1) rotate(5deg);
+}
+
+
+
+
+
+
+
+
+>>>>>>> c525820ff596153741de6379a16a8246e5e478d1
 
 .contentdiv__logo__blanco{
     width: 100px;
