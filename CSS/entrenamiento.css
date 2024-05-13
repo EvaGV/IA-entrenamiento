@@ -173,6 +173,12 @@ div{
 
 
 /*Ejemplo*/
+.maineje{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 100vh;
+}
 .bannerejercicio{
     height: 150px;
     display: flex;
@@ -182,13 +188,15 @@ div{
 }
 .bodyej{
     background-color: rgb(98, 98, 223);
+
 }
+
 .divsection{
     background-color: white;
     display: flex;
     padding: 10px;  
     border-radius: 30PX;
-    width: 600px;
+    width: ;
     justify-content: space-around;
     margin: 10px;
 }
@@ -201,7 +209,7 @@ div{
     display: flex;
     padding: 10px;  
     border-radius: 30PX;
-    width: 600px;
+    width: px;
     justify-content: space-around;
     margin: 10px;
 }
@@ -215,7 +223,7 @@ div{
 }
 .mensajefixed{
     background-color: #0f0b47;
-    width: 600px;
+    width: 370px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -228,7 +236,7 @@ div{
     padding: 10px;
 }
 .divscroll {
-    height: 420px;
+    height: 450px;
     overflow-y: scroll;
     }
 .divscroll::-webkit-scrollbar{
