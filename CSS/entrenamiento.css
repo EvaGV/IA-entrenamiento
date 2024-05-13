@@ -89,19 +89,15 @@ h2:hover{
     width: fit-content;
     background-color: rgb(255, 255, 255);
     color: rgb(98, 98, 223);
-    padding: 10px 20px; 
-    border-radius: 5px ; 
     border: solid rgb(98, 98, 223) 1px;
+    padding: 10px 20px; 
+    border-radius: 5px; 
     cursor: pointer;
     margin-top: 20px;
     text-decoration: none;
     transition: transform 0.3s ease;
 }
 .button--anterior:hover{
-    background-color: #fff; 
-    color: rgb(98, 98, 223); 
-    border-color: rgb(98, 98, 223);
-    border: 2px solid;
     transform: scale(1.1) rotate(-5deg);
 }
 
